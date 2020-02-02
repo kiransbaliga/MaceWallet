@@ -1,0 +1,313 @@
+    @import "https://fonts.googleapis.com/css?family=B612&display=swap";
+    @keyframes slidy {
+        0% {
+            left: -100%;
+        }
+        22% {
+            left: -100%;
+        }
+        29% {
+            left: -200%;
+        }
+        54% {
+            left: -200%;
+        }
+        61% {
+            left: -300%;
+        }
+        90% {
+            left: -300%;
+        }
+        100% {
+            left: -100%;
+        }
+    }
+    
+    body {
+        margin: 0;
+    }
+    
+    div#slider {
+        overflow: hidden;
+    }
+    
+    div#slider figure img {
+        width: 20%;
+        float: left;
+        height: 1000px;
+    }
+    
+    div#slider figure {
+        position: relative;
+        width: 500%;
+        margin: 0;
+        left: 0;
+        text-align: left;
+        font-size: 0;
+        animation: 20s slidy infinite;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+    
+    .button1 {
+        background-color: black;
+        padding-right: 100%;
+        padding-bottom: 0px;
+    }
+    
+    .button1 a {
+        position: relative;
+        top: 15px;
+        left: 8px;
+        color: #fff;
+        background-color: #000;
+        text-decoration: none;
+        font-size: larger;
+    }
+    
+    .button1 a:hover {
+        background-color: grey;
+        color: white;
+        border: 11px solid grey
+    }
+    
+    .button2 {
+        background-color: black;
+        padding-right: 100%;
+        padding-bottom: 2%;
+    }
+    
+    .button2 a {
+        position: absolute;
+        top: 15px;
+        left: 90px;
+        color: #fff;
+        background-color: #000;
+        text-decoration: none;
+        font-size: larger;
+    }
+    
+    .button2 a:hover {
+        position: absolute;
+        top: 4px;
+        left: 90px;
+        background-color: grey;
+        color: white;
+        border: 11px solid grey
+    }
+    
+    .button3 {
+        background-color: black;
+        padding-right: 100%;
+        padding-bottom: 0px;
+    }
+    
+    .button3 a {
+        position: absolute;
+        top: 14px;
+        left: 172px;
+        color: #fff;
+        background-color: #000;
+        text-decoration: none;
+        font-size: larger;
+    }
+    
+    .button3 a:hover {
+        background-color: grey;
+        color: white;
+        border: 11px solid grey
+    }
+    
+    .image1 {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    
+    .image2 {
+        padding-top: 20px;
+        padding-bottom: 20px;
+        position: relative;
+        left: 85%;
+    }
+    
+    .image3 {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    
+    .text1 {
+        position: absolute;
+        top: 1135px;
+        left: 300px;
+        font-family: 'B612', sans-serif;
+        font-size: x-large;
+        font-style: italic;
+    }
+    
+    .text2 {
+        position: absolute;
+        top: 1365;
+        right: 400px;
+        font-family: 'B612', sans-serif;
+        font-size: x-large;
+        font-style: italic;
+    }
+    
+    .text3 {
+        position: absolute;
+        top: 1635;
+        right: 1100px;
+        font-family: 'B612', sans-serif;
+        font-size: x-large;
+        font-style: italic;
+    }
+    
+    .text4 {
+        position: absolute;
+        top: 1935px;
+        left: 300px;
+        font-family: 'B612', sans-serif;
+        font-size: x-large;
+        font-style: italic;
+    }
+    
+    .inf {
+        position: relative;
+        top: 0px;
+        left: -100px;
+        font-family: 'B612', sans-serif;
+        font-size: xx-large;
+        font-style: italic;
+    }
+    
+    .harley {
+        position: absolute;
+        top: 40%;
+        left: 20%;
+        background-color: rgba(55, 55, 55, 0.8);
+        padding-right: 60%;
+        padding-bottom: 10%;
+        color: whitesmoke;
+    }
+    
+    .heading {
+        color: white;
+        position: absolute;
+        top: 20%;
+        left: 35%;
+        font-family: 'B612', sans-serif;
+        font-size: 98;
+    }
+    
+    .logo {
+        position: absolute;
+        top: 33%;
+        left: 25%;
+    }
+    
+    .next a {
+        position: absolute;
+        top: 70%;
+        left: 35%;
+        background-color: rgba(55, 55, 55, 0.8);
+        padding-right: 01%;
+        padding-left: 1%;
+        text-decoration: none;
+        color: whitesmoke;
+        font-size: 32px;
+        text-align: center;
+    }
+    
+    .butto a {
+        position: absolute;
+        top: 70%;
+        left: 45%;
+        background-color: rgba(55, 55, 55, 0.8);
+        padding-right: 01%;
+        padding-left: 1%;
+        text-decoration: none;
+        color: whitesmoke;
+        font-size: 32px;
+        text-align: center;
+    }
+    
+    .butto2 a {
+        position: absolute;
+        top: 70%;
+        left: 55%;
+        background-color: rgba(55, 55, 55, 0.8);
+        padding-right: 1%;
+        padding-left: 1%;
+        text-decoration: none;
+        color: whitesmoke;
+        font-size: 32px;
+        text-align: center;
+    }
+    
+    .inf {
+        position: relative;
+        top: -70px;
+    }
+    
+    .line {
+        position: relative;
+        top: 500px;
+        padding-right: 100;
+        background-color: black;
+    }
+    
+    .storeimg {
+        position: absolute;
+        top: -50px;
+        left: -690px;
+    }
+    
+    .intext1 {
+        position: relative;
+        left: 400px;
+    }
+    
+    .canteenimg {
+        position: relative;
+        top: 200px;
+        left: 850px
+    }
+    
+    .intext2 {
+        position: relative;
+        top: -50px;
+    }
+    
+    .photocopyimg {
+        position: relative;
+        top: 300px;
+        right: 1040px;
+    }
+    
+    .intextt3 {
+        position: relative;
+        bottom: 200px;
+        left: 750;
+        margin-bottom: 1px solid black;
+    }
+    
+    .foot {
+        position: absolute;
+        top: 3000px;
+        color: whitesmoke;
+        background-color: black;
+        width: 100%;
+        text-align: center;
+    }
+    
+    .foot a {
+        text-decoration: none;
+        color: white;
+    }
+    
+    .button3 a:hover {
+        background-color: grey;
+        color: white;
+        border: 11px solid grey
+    }

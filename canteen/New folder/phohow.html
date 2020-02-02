@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>MaceWallet</title>
+    <style>
+        .account {
+            padding: 10px;
+            color: white;
+            background-color: rgba(0, 0, 0, 0.65);
+        }
+        
+        .acc {
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            margin-left: 80%;
+            color: white;
+            position: absolute;
+            top: 5px;
+            right: 5 px;
+            z-index: 1;
+            font-size: 20px;
+        }
+        
+        .helpim {
+            border: 15px solid black;
+            height: 400px;
+            width: 800px;
+        }
+        
+        body {
+            background-image: url('./wall.jpg');
+            background-size: cover;
+        }
+        
+        .Hea {
+            font-size: 60px;
+            color: white;
+            position: relative;
+            top: 0;
+            width: 310px;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+        
+        .side {
+            background-color: rgba(0, 0, 0, 0.38);
+            height: 1600px;
+            z-index: 1;
+            width: 225px;
+            position: relative;
+        }
+        
+        .maintext {
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-size: 25px;
+        }
+        
+        .butto {
+            border: none;
+            width: 24%;
+            height: 37px;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            background-color: rgba(0, 0, 0, 0.65);
+            color: white;
+        }
+        
+        .hoi {
+            position: -webkit-sticky;
+            position: sticky;
+        }
+        
+        .butto:hover {
+            background-color: rebeccapurple;
+            box-shadow: grey;
+        }
+        
+        .butdis {
+            height: 37px;
+            background-color: rgba(0, 0, 0, 0.18);
+            color: white;
+        }
+        
+        .marg {
+            margin-left: 250px;
+            position: absolute;
+            top: 170px;
+        }
+        
+        .subhead {
+            font-size: 20px;
+            color: white;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            margin-left: 140px;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <!--<div class="image">
+    <img src="./picture.jpg"></div>-->
+    <div class="Hea">
+        MaceWallet
+    </div>
+
+    <div class="subhead">
+        mace made easier..
+    </div>
+
+    <div class="btn-grp ">
+        <button class="butto" onclick="window.location='./phohome.html'">Home</button>
+        <button class="butto" onclick="window.location='./photo.html'">Banking</button>
+        <button class="butto butdis" style="border-bottom: 2px solid  rgba(0, 0, 0, 0.65);">How To</button>
+    </div>
+    <div class="acc">Canteen<button class="account" onclick="window.location='./Account.html'">Account</button></div>
+    <div>
+        <br>
+        <div class="side">
+
+        </div>
+        <div class="marg">
+            <h1 style="text-decoration: underline;">1.Link Your MaceWallet With Your Bank Account.</h1>
+            <p class="maintext"><br>You can link your MaceWallet with your Bank Account through following steps...<br><br>a. Select "Link/Unlink Your Bank Account" from Banking Tab.<br> b. Enter your Bank Account Details and Proceed.</p>
+            <img class="helpim" src="./linkim.png" alt="Help on Account Link" title="Account Link">
+            <p class="maintext"><br>c. Enter the OTP which was sent to your registered mobile number.<br>d. Continue and Recharge your MaceWallet.</p>
+            <hr>
+            <h1 style="text-decoration: underline;">2.Recharge Your MaceWallet.</h1>
+            <p class="maintext">
+                You can Recharge Your MaceWallet by transfering funds from your bank account through following steps...(Please make sure that your MaceWallet is linked to your Bank Account) <br></p>
+            <p class="maintext">a. Select "Recharge your MaceWallet" from Banking Tab.<br>b. Enter the amount to recharge.</p>
+            <img class="helpim" src="./reim.png" alt="Help on Recharge" title="Recharge">
+            <p class="maintext"><br>c. Click on Proceed Button.<br>d. Enter the OTP which has been sent to your registered mobile number.<br>5.Click Continue.</p>
+            <hr>
+            <h1 style="text-decoration: underline;">3.WithDraw Cash From Your MaceWallet.</h1>
+            <p class="maintext"><br>You can Withdraw money from your MaceWallet through following steps...<br><br>a. Select "Withdraw Money From MaceWallet" from Banking Tab.<br>b. Enter the amount to Withdraw.</p>
+            <img class="helpim" src="withdrawim.png" alt="Help on Withdrawal" title="Withdrawal">
+            <p class="maintext"><br> c. Click Confirm to Proceed.</p>
+            <hr>
+            <h1 style="text-decoration: underline;">4.Change Your Password.</h1>
+            <p class="maintext"><br>You can change your password through following steps...<br><br>a. Select "Account" from the top right corner.</p>
+            <img class="helpim" src="./accc.png" alt="Help on Password Change" title="Password Change">
+            <p class="maintext"><br>b. Select "Change Your Password".</p>
+            <img class="helpim" src="./passim2.png" alt="Help on Password Change" title="Password Change">
+            <p class="maintext"><br>c. Enter your old password and new password.</p>
+            <img class="helpim" src="./pp.png" alt="Help on Password Change" title="Password Change">
+            <p class="maintext"><br> d.Click Confirm.</p>
+            <hr>
+            <h1 style="text-decoration: underline;">5.Lock your Barcode Transactions.</h1>
+            <p class="maintext"><br>You can block your Barcode incase you lost your ID Card. You can do this by following these steps...<br><br>a. Select "Account" from the top right corner. </p>
+            <img class="helpim" src="./accc.png" alt="Help on Password Change" title="Password Change">
+            <p class="maintext"><br>b. Select "Barcode Lock".</p>
+            <img class="helpim" src="./barim.png" alt="Help on Password Change" title="Password Change">
+            <p class="maintext"></p><br>c. Select Lock and Confirm.</p>
+        </div>
+    </div>
+</body>
+
+</html>

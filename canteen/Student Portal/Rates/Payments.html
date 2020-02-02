@@ -1,0 +1,187 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width",initial-scale=1.0>
+    <title>MaceWallet</title>
+   <style>
+    .account{
+        padding: 10px;
+        color: white;
+        background-color: rgba(0, 0, 0, 0.65);
+    }
+    .acc{
+        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        margin-left: 80%;
+        z-index: 1;
+        color: white;
+        font-size: 20px;
+        position:absolute;
+        top:5px;
+        right: 5 px;
+    }
+    .hoi{
+        position: -webkit-sticky;
+        position:sticky;
+        }
+    .Hea{
+        font-size: 60px;
+        color: white;
+        position: relative;
+        top:0;
+        width:310px;
+        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+           }
+           body{
+        background-image: url('./wall.jpg');
+        background-size: cover;
+    }
+    .side{
+         background-color:rgba(0, 0, 0, 0.38);;
+         height: 625px;
+         z-index: 1;
+         width:225px;
+         position: absolute;
+    
+}
+    .maintext{
+        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: 25px;
+
+           }
+    .sidetext{
+        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+       font-size: 30px;
+       text-align: center;
+
+    }
+    .butto{
+        width:24%;
+        height: 37px;
+        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        background-color: rgba(0, 0, 0, 0.65);
+        border: none;
+        color: white;
+    }
+   .butto:hover{
+       background-color:rebeccapurple;
+       box-shadow: grey;
+   }
+    
+    .subhead{
+        font-size: 20px;
+        color:  white;
+        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        margin-left: 140px;
+        margin-bottom: 10px;
+    }
+    .bbutt{
+        background-color:  transparent;
+        text-decoration: none;
+        height: 30px;  
+        color: white;
+        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+    .butonss{
+        padding-top: 10px;
+       padding-bottom: 10px;
+        background-color: transparent;
+       margin-top:2%;
+       margin-left: 8%;
+       margin-right: 0%;
+        text-align: right;    
+    }
+    .butons{
+        background-color:  rgba(0, 0, 0, 0.65);
+        cursor: pointer;
+      text-align: center;
+      margin-top:2%;
+       margin-left: 8%;
+       margin-right: 8%;
+    }
+    .butdis{
+      
+      background-color:rgba(0, 0, 0, 0.18);
+      color: white;
+  }
+  .list{
+      margin-left: 250px;
+      border-collapse:collapse;
+      color: white;background-color: rgba(0, 0, 0, 0.50);
+
+      font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+  .tabhea{
+      border: 1px solid black;
+      width: 200pt;
+      background-color: rgba(0, 0, 0, 0.40);
+      border-color:black;
+      color: white;
+  }
+  .item{border: 1px solid black;
+  width: 200pt;
+     border-color:  rgba(0, 0, 0, 0.65);
+  }
+  
+</style>
+</head>
+<body>
+    <!--<div class="image">
+    <img src="./picture.jpg"></div>-->
+  <div class="hoi"> <div class="sbs"><div class="Hea">
+        MaceWallet
+    </div>
+     <div class="acc" >Welcome Mr.(Name)<button class="account" onclick="window.location='./Account.html'">Account</button></div>
+   </div>
+    <div class="subhead">
+        mace made easier..
+    </div>
+     <div class="btn-grp ">
+        <button class="butto" onclick="window.location='./Home.html'">Home</button>
+        <button class="butto" onclick="window.location='./Banking.html'">Banking</button>    
+        <button class="butto butdis" style="border-bottom: 2px solid  rgba(0, 0, 0, 0.65);">Rates</button>
+        <button class="butto" onclick="window.location='./Howto.html'">How To</button>
+     </div>
+    </div>
+    <div>
+     <br>
+     <div class="side">
+       <!-- <div class="sidetext"> Current Balance:<br></div>-->
+      <!--   <div>--><!-- Balance goes here--><!--</div>
+     </div>
+     <div class="marg"> 
+     <div >-->
+         <br><div class="butonss"><a class="bbutt butdis">Current Canteen Rates</a><br></div><br>
+        <div class="butons" > <a class="bbutt" href="./photostat.html">Current Photostat centre Rates</a><br></div>
+     </div>
+    </div>
+</div>
+<div class="list">
+    <h3>Food Prices</h3>
+<table >
+<tr><th class="tabhea">Item</th><th class="tabhea">Price</th></tr>
+<tr><td class="item">Biriyani</td><td class="item">70</td></tr>
+<tr><td class="item">Meals</td><td class="item">36</td></tr>
+<tr><td class="item">Chappathi</td><td class="item">10</td></tr>
+<tr><td class="item">Porotta</td><td class="item">10</td></tr>
+<tr><td class="item">Appam</td><td class="item">10</td></tr>
+<tr><td class="item">Idiyappam</td><td class="item">10</td></tr>
+<tr><td class="item">Dosa</td><td class="item">10</td></tr>
+<tr><td class="item">Kadalacurry</td><td class="item">10</td></tr>
+<tr><td class="item">Muttacurry</td><td class="item">10</td></tr>
+<tr><td class="item">Meencurry</td><td class="item">10</td></tr>
+<tr><td class="item">Beef Fry</td><td class="item">70</td></tr>
+<tr><td class="item">Fish Fry</td><td class="item">36</td></tr>
+<tr><td class="item">Chicken curry</td><td class="item">10</td></tr>
+<tr><td class="item">Vegetable stew</td><td class="item">10</td></tr>
+<tr><td class="item">Greenpiece</td><td class="item">10</td></tr>
+<tr><td class="item">Tea</td><td class="item">70</td></tr>
+<tr><td class="item">Coffee</td><td class="item">36</td></tr>
+<tr><td class="item">Samosa</td><td class="item">10</td></tr>
+<tr><td class="item">Bonda</td><td class="item">10</td></tr>
+</table>
+</div>
+    <script src="./script.js"></script>
+    </body> 
+</html>

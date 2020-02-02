@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>MaceWallet</title>
+    <style>
+        .account {
+            padding: 10px;
+            color: white;
+            border: none;
+            background-color: rgba(0, 0, 0, 0.65);
+        }
+        
+        .acc {
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            color: white;
+            margin-left: 80%;
+            position: absolute;
+            z-index: 1;
+            top: 5px;
+            right: 5px;
+            font-size: 20px;
+        }
+        
+        .Hea {
+            font-size: 60px;
+            color: white;
+            position: relative;
+            top: 0;
+            width: 310px;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+        
+        .side {
+            background-color: rgba(0, 0, 0, 0.38);
+            height: 485px;
+            z-index: 1;
+            width: 225px;
+            position: fixed;
+        }
+        
+        .maintext {
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-size: 25px;
+            color: white;
+            background-color: rgba(0, 0, 0, 0.24);
+        }
+        
+        .sidetext {
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-size: 30px;
+            text-align: center;
+            color: white;
+        }
+        
+        .butto {
+            width: 24%;
+            height: 37px;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            border: none;
+            background-color: rgba(0, 0, 0, 0.65);
+            color: white;
+        }
+        
+        .butto:hover {
+            background-color: rebeccapurple;
+            box-shadow: grey;
+        }
+        
+        .hoi {
+            position: -webkit-sticky;
+            position: sticky;
+        }
+        
+        .butdis {
+            height: 37px;
+            background-color: rgba(0, 0, 0, 0.18);
+            color: white;
+        }
+        
+        .marg {
+            margin-left: 250px;
+        }
+        
+        .subhead {
+            font-size: 20px;
+            color: white;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            margin-left: 140px;
+            margin-bottom: 10px;
+        }
+        
+        body {
+            background-image: url('./wall.jpg');
+            background-size: cover;
+        }
+        /* .image{
+        height: 600px;
+        background-image:url(./wall.jpg);
+        object-fit:contain;
+    } */
+    </style>
+</head>
+
+<body>
+    <!--<div class="image">
+    <img src="./picture.jpg"></div>>-->
+    <div class="Hea">
+        MaceWallet
+    </div>
+    <div class="acc">Canteen<button class="account" onclick="window.location='./Account.html'">Account</button></div>
+
+    <div class="subhead">
+        mace made easier..
+    </div>
+
+    <div class="btn-grp ">
+        <button class="butdis butto" style="border-bottom: 2px solid  rgba(0, 0, 0, 0.65);">Home</button>
+        <button class="butto" onclick="window.location='./canteen.html'">Banking</button>
+        <button class="butto" onclick="window.location='./canhow.html'">How To</button>
+    </div>
+    <div>
+        <br>
+        <div class="side">
+            <div class="sidetext"> Current Balance: <br> 110 Rs/-</div>
+            <div>
+                <!-- Balance goes here-->
+            </div>
+        </div>
+        <div class="marg">
+            <div>
+                <p class="maintext">MaceWallet is an online digital wallet made for macians. Using MaceWallet, you can do any payment inside the college using your ID card.</p>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

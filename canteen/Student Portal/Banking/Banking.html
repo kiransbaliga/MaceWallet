@@ -1,0 +1,193 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>MaceWallet</title>
+   <style>
+    .account{
+        padding: 10px;
+        color: white;
+        background-color: rgba(0, 0, 0, 0.65);
+    }
+    .acc{
+        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        margin-left: 80%;
+        z-index: 1;
+        font-size: 20px;
+        top:5px;
+        right: 5 px;
+        color: white;
+        position:absolute;
+    }
+    .Hea{
+        font-size: 60px;
+        color: white;
+        position: relative;
+        top:0;
+        width:310px;
+        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+           }
+    
+    .side{
+         background-color:rgba(0, 0, 0, 0.25);
+         height: 485px;
+         z-index: 1;
+         width:225px;
+         position: fixed;
+    
+}
+body{
+        background-image: url('./wall.jpg');
+        background-size: cover;
+    }
+.hoi{
+        position: -webkit-sticky;
+        position:sticky;
+}
+    .maintext{
+        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: 25px;
+
+           }
+    .sidetext{
+        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+       font-size: 30px;
+       text-align: center;
+
+    }
+    .butto{
+        width:24%;
+        height: 37px;
+        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        background-color: rgba(0, 0, 0, 0.65);
+        color: white;
+        border: none;
+    }
+   .butto:hover{
+       background-color:rebeccapurple;
+       box-shadow: grey;
+   }
+    
+    .marg{
+        margin-left: 250px;
+    }
+    .subhead{
+        font-size: 20px;
+        color: white;
+        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        margin-left: 140px;
+        margin-bottom: 10px;
+    }
+    .bbutt{
+        color: white;
+        width: 500px;
+        background-color:  transparent;
+        text-decoration: none;
+        height: 30px;
+        text-align: center;
+        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+    
+   .butonss{
+    padding-top: 10px;
+       padding-bottom: 10px;
+        background-color:transparent;
+       margin-top:2%;
+       margin-left: 8%;
+       margin-right: 0%;
+        text-align: right;    
+        /* position: relative; */
+   }
+    .butons{
+      cursor: pointer;
+     
+      background-color:  rgba(0, 0, 0, 0.65);
+      text-align: center;
+      margin-top: 2%;
+      margin-left: 8%;
+      margin-right: 8%;
+    } 
+    .rehead{
+        margin-left: 20px;
+    }
+    .butdis{
+        background-color:rgba(0, 0, 0, 0.18);
+        color: white;
+    }
+    .amount{
+        font-size: 20px;
+        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        margin-left: 250px;
+        border-radius: 10px;
+        background-color:darkgray;
+        width:400px;
+        padding-bottom: 20px;
+        padding-left: 5px;
+    }
+    .field{
+        height: 20px;
+        margin-left: 10px;
+        font-size: 20px;
+        border: 1px solid transparent;
+        border-bottom: 1px solid ;
+        text-align: center;
+        background-color: darkgray;
+
+    }
+    .proceed
+    {
+        background-color:  rgba(0, 0, 0, 0.65);
+        border-radius: 5px;
+        margin-left:135px;
+        margin-top: 20px;
+        height: 30px;
+        width: 100px;
+        border: none;
+        color: white;
+    }
+    .proceed:hover{
+        color: rebeccapurple;
+    }
+</style>
+</head>
+<body>
+    <!--<div class="image">
+    <img src="./picture.jpg"></div>-->
+    <div class="Hea">
+        MaceWallet
+    </div>
+     <div class="acc" >Welcome Mr.(Name)<button class="account" onclick="window.location='./Account.html'">Account</button></div>
+   
+    <div class="subhead">
+        mace made easier..
+    </div>
+
+     <div class="btn-grp ">
+        <button class="butto" onclick="window.location='./Home.html'">Home</button>
+        <button class=" butto butdis" style="border-bottom: 2px solid  rgba(0, 0, 0, 0.65);" >Banking</button>    
+        <button class="butto" onclick="window.location='./Payments.html'">Rates</button>
+        <button class="butto" onclick="window.location='./Howto.html'">How To</button>
+     </div>
+    <div>
+     <br>
+     <div class="side">
+       <!-- <div class="sidetext"> Current Balance:<br></div>
+         <div> Balance goes here--><!--</div>
+     </div>
+     <div class="marg"> --><br>
+         <div class="butonss"><a class="bbutt butdis">Recharge Your MaceWallet</a><br></div><br>
+           <div class="butons"> <a class="bbutt" href="./Bankwithdraw.html">Withdraw Money From MaceWallet</a ><br></div ><br>
+        <div class="butons"> <a class="bbutt" href="./Banklink.html">Link/Unlink Your Bank Account</a ></div >
+        </div>
+    </div>
+  
+    <div class="amount">
+        <h2 class="rehead">Recharge</h2>
+Enter Recharge Amount: Rs<input class="field" type="number" maxlength="6" size="1" placeholder="00.00" >
+<br> <button class="proceed" >Proceed</button>
+    </div>
+    <script src="./script.js"></script>
+        </body> 
+    </html>
